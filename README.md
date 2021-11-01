@@ -1,7 +1,9 @@
 iSemedaki for GNOME Shell
 ======================
 
-Add a useless notch to your screen.
+Have you miss mom putting a semedaki on your screen? Now you can have a virtual one.
+
+An essential gnome extension.
 -----------------------------------
 
 ![screenshot](./screenshot.png)

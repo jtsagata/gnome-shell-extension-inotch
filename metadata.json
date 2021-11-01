@@ -1,9 +1,9 @@
 {
-  "name": "iNotch",
-  "description": "Add a useless notch to your screen.",
-  "uuid": "inotch@alynx.one",
-  "url": "https://github.com/AlynxZhou/gnome-shell-extension-inotch/",
-  "version": 3,
+  "name": "iSemedaki",
+  "description": "A virtual Greek Mom Creation.",
+  "uuid": "isemdaki@linuxuser.gr",
+  "url": "https://github.com/jtsagata/gnome-shell-extension-isemedaki/",
+  "version": 1,
   "shell-version": [
     "40",
     "41"

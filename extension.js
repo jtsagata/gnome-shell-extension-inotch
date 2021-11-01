@@ -47,23 +47,24 @@ class Extension {
       {"trackFullscreen": false}
     );
     const primaryMonitor = Main.layoutManager.primaryMonitor;
-    const width = 250;
-    const height = 60;
+    const width = 350;
+    const height = 250;
     const x = primaryMonitor.x + (primaryMonitor.width - width) / 2;
     const y = primaryMonitor.y;
     this.notch.set_size(width, height);
-    this.notch.set_position(x, y);
+    this.notch.set_position(x, y-10);
+    this.isHidingCursor = false;
 
     // A physical notch will hide the cursor.
     this.watch = PointerWatcher.getPointerWatcher().addWatch(70, (px, py) => {
       if (this.isHidingCursor) {
         if (!(px >= x && px <= x + width && py >= y && py <= y + height)) {
-          Main.magnifier.showSystemCursor();
+          this.notch.show();
           this.isHidingCursor = false;
         }
       } else {
         if (px >= x && px <= x + width && py >= y && py <= y + height) {
-          Main.magnifier.hideSystemCursor();
+          this.notch.hide();
           this.isHidingCursor = true;
         }
       }

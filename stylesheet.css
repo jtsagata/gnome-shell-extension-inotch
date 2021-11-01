@@ -1,9 +1,10 @@
 #camera {
-	background-image: url(./assets/notch-camera.png);
+	background-image: url(./assets/semedaki.png);
 }
 
 #notch {
-	padding: 10px;
-	border-radius: 0 0 10px 10px;
-	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	z-index: 99999;
 }

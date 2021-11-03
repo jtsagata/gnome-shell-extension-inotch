@@ -14,3 +14,4 @@ An essential gnome extension.
 $ git clone https://github.com/jtsagata/gnome-shell-extension-isemdaki.git ~/.local/share/gnome-shell/extensions/isemdaki@linuxuser.gr
 ```
 
+More info and screenshoots: https://linux-user.gr/t/isemedaki-h-epektash-gnome-poy-den-prepei-na-leipei-apo-kanena-ellhniko-spiti/3590
